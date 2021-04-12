@@ -12,13 +12,13 @@ pip install -r requirements.txt
 Now for the final step. Run it
 
 
-Workflow:
+#Workflow:
 
 Data Collection:
 https://www.kaggle.com/jsphyg/weather-dataset-rattle-package
 Rainfall Prediction in Australia dataset from Kaggle
 
-Data Preprocessing:
+#Data Preprocessing:
 
 Missing Values Handled by Random Sample imputation to maintain the variance
 Categorical Values like location, wind direction are handled by using Target guided encoding
@@ -26,7 +26,8 @@ Outliers are handled using IQR and boxplot
 Feature Selection and was done but didnt perform well it can be seen in testing_notebook/Prediction.ipynb
 Feature Scaling didnt give a lot of difference it also can be seen in testing_notebook/RainPrediction1.ipynb
 Imbalanced Dataset was handled using SMOTE
-Model Creation:
+
+#Model Creation:
 
 Different types of models were tried like catboost, random forest, logistic regression, xgboost, support vector machines, knn, naive bayes.
 Out of these catboost, random forest and support vector machines were top 3
